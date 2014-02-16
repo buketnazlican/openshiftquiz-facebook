@@ -1,0 +1,39 @@
+.topper {
+    height:35px;
+    position:fixed;
+    top:0px;
+    width:99%;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:1px dashed #000;
+    background-color:#f5f5f5;
+}
+#welcome {
+    float:left;
+}
+#score {
+    float:right;
+}
+.container {
+    margin-top:50px;
+}
+ol.answers {
+    list-style-type:lower-alpha;
+}
+ol.answers li input {
+    margin-left:-50px;
+}
+ol.answers li input span {
+    margin-left:50px;
+}
+.incorrect {
+    font-weight:bold;
+    color:red;
+}
+.correct {
+    font-weight:bold;
+    color:green;
+}
+li.question {
+    margin-top:10px;
+}
